@@ -12,6 +12,6 @@ from loggers import logger
 x = ()
 logger.info(x)
 
-#Create an empty tuple with tuple() function built-in Python
+#Create an tuple with tuple() function built-in Python
 tuplex = tuple({1,2,3,4,5})
 logger.info(tuplex)
