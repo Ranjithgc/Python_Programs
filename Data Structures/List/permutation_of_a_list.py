@@ -3,7 +3,7 @@
 @Date: 2021-07-05
 @Last Modified by: Ranjith G C
 @Last Modified time: 2021-07-05 
-@Title : Program Aim to Print a list after removing specified elements
+@Title : Program Aim to Print a permutations of a list
 '''
 from loggers import logger
 import itertools
