@@ -11,7 +11,7 @@ from loggers import logger
 def frozen_set():
     '''
     Description:
-        This function clears a set
+        This function implements frozen set uses
     '''
     
     # Frozensets
