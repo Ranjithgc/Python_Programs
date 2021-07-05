@@ -14,7 +14,6 @@ try:
     tuple1 = tuple({1, 2.5, 3, 4})
 
     tuple2 = deepcopy(tuple1)
-    tuple2[2].append(5)
     logger.info(tuple2)
 
 except Exception:
