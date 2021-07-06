@@ -7,8 +7,6 @@
 '''
 from loggers import logger
 
-import textwrap
-
 try:
     sample_text = '''
     Python is a widely used high-level, general-purpose, interpreted,
