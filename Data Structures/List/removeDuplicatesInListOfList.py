@@ -8,6 +8,7 @@
 '''
 
 from loggers import logger
+import itertools
 
 def remove():
     '''
@@ -16,14 +17,16 @@ def remove():
     '''
 
     try:
-        list1 = [[10, 20], [40], [30, 56, 25], [10, 20], [33], [40]]
-        list2 = []
-
-        for value in list1:
-            if value not in list2:
-                list2.append(value)
         
-        logger.info(list2)
+        num = [[10, 20], [40], [30, 56, 25], [10, 20], [33], [40]]
+        logger.info("original list")
+        logger.info(num)
+        
+        num.sort()
+        
+        new_num = list(num for num,_ in itertools.groupby(num))
+        logger.info("New list")
+        logger.info(new_num)
 
     except Exception:
         logger.error("Invalid Input")
